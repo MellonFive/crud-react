@@ -46,10 +46,14 @@
 
 .add-todo {
   margin-bottom: 2rem;
+
+  display: flex;
+  gap: .5rem;
 }
 
 .add-todo input {
   width: 100%;
+  padding-left: 1rem;
 }
 
 .todos {
